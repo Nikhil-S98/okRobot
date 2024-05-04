@@ -10,7 +10,7 @@ body {
 }
 
 nav {
-  background: #7de47f;
+  background: #ffffff;
   height: 10vh;
   display: flex;
   justify-content: center;
@@ -41,7 +41,8 @@ nav .headerTitle {
 }
 
 .page1,
-.page2 {
+.page2,
+.page3 {
   height: 90vh;
   position: absolute;
   width: 100%;
@@ -164,6 +165,8 @@ nav .headerTitle {
   width: 30vw;
   height: auto;
   margin: 30px;
+  margin-right: 0px;
+  padding-right: 30px;
 }
 .page2Content .contentA #contentAText {
   display: flex;
@@ -184,6 +187,75 @@ nav .headerTitle {
   font-size: 24px;
 }
 
+.page3Content {
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.page3Content img {
+  height: 50%;
+}
+.page3Content h1 {
+  font-size: 50px;
+  margin: 30px 0px;
+}
+.page3Content p {
+  font-size: 23px;
+}
+.page3Content .contentA {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+  width: auto;
+  height: auto;
+}
+.page3Content .contentA .contentAImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.page3Content .contentA .contentAImage .pageImage {
+  width: 30vw;
+  height: auto;
+  margin: 25px;
+}
+.page3Content .contentA .contentAImage h1 {
+  margin: 10;
+  font-size: 50px;
+  width: 30vw;
+  text-align: center;
+}
+.page3Content .contentA .contentAImage p {
+  text-align: center;
+  width: 70%;
+}
+.page3Content .contentA .contentAImage .pageImage2 {
+  width: 20vw;
+  height: auto;
+  margin: 30px;
+  margin-top: 30vh;
+  margin-right: 0px;
+  padding-right: 30px;
+}
+.page3Content .contentA #contentAText {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: center;
+  margin: 30px;
+  padding: 0px;
+}
+.page3Content .contentA #contentAText p {
+  width: 30vw;
+  height: auto;
+  font-size: 24px;
+}
+
 .page1 {
   background: black;
   color: white;
@@ -193,6 +265,11 @@ nav .headerTitle {
 
 .page2 {
   background: #909090;
+  color: black;
+}
+
+.page3 {
+  background: #ffd6ff;
   color: black;
 }
 

@@ -10,7 +10,7 @@ body {
 }
 
 nav {
-    background: #7de47f;
+    background: #ffffff;
     height: 10vh;
     display: flex;
     justify-content: center;
@@ -41,7 +41,8 @@ nav {
 }
 
 .page1,
-.page2 {
+.page2,
+.page3 {
     height: 90vh;
     position: absolute;
     width: 100%;
@@ -169,6 +170,8 @@ nav {
                 width: 30vw;
                 height: auto;
                 margin: 30px;
+                margin-right: 0px;
+                padding-right: 30px;
             }
         }
 
@@ -194,6 +197,79 @@ nav {
 
 }
 
+.page3Content {
+    height: 100%;
+    overflow: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    img {
+        height: 50%;
+    }
+    h1 {
+        font-size: 50px;
+        margin: 30px 0px;
+    }
+    p {
+        font-size: 23px;
+    }
+    .contentA {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 16px;
+        width: auto;
+        height: auto;
+
+        
+        .contentAImage {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            .pageImage {
+                width: 30vw;
+                height: auto;
+                margin: 25px;
+            }
+            h1 {
+                margin: 10;
+                font-size: 50px;
+                width: 30vw;
+                text-align: center;
+            }
+            p {
+                text-align: center;
+                width: 70%;
+            }
+            .pageImage2 {
+                width: 20vw;
+                height: auto;
+                margin: 30px;
+                margin-top: 30vh;
+                margin-right: 0px;
+                padding-right: 30px;
+            }
+        }
+
+        #contentAText {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            text-align: center;
+            margin: 30px;
+            padding: 0px;
+            p {
+                width: 30vw;
+                height: auto;
+                font-size: 24px;
+            }
+        }
+    }
+
+}
+
 .page1 {
     background: black;
     color: white;
@@ -203,5 +279,10 @@ nav {
 
 .page2 {
     background: #909090;
+    color: black;
+}
+
+.page3 {
+    background: #ffd6ff;
     color: black;
 }
