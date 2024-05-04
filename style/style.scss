@@ -47,8 +47,7 @@ nav {
     width: 100%;
 }
 
-.page1Content,
-.page2Content {
+.page1Content {
     height: 100%;
     overflow: auto;
     width: 100%;
@@ -126,6 +125,75 @@ nav {
     }
 }
 
+.page2Content {
+    height: 100%;
+    overflow: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    img {
+        height: 50%;
+    }
+    h1 {
+        font-size: 50px;
+        margin: 30px 0px;
+    }
+    p {
+        font-size: 23px;
+    }
+    .contentA {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 16px;
+        width: auto;
+        height: auto;
+
+        
+        .contentAImage {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            .pageImage {
+                width: 30vw;
+                height: auto;
+                margin: 25px;
+            }
+            p {
+                text-align: center;
+                width: 70%;
+            }
+            .pageImage2 {
+                width: 30vw;
+                height: auto;
+                margin: 25px;
+            }
+        }
+
+        #contentAText {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            text-align: center;
+            margin: 10px;
+            padding: 0px;
+            h1 {
+                margin: 0;
+                font-size: 30px;
+                width: 30vw;
+            }
+            p {
+                width: 30vw;
+                height: auto;
+                font-size: 24px;
+            }
+        }
+    }
+
+}
+
 .page1 {
     background: black;
     color: white;
@@ -134,6 +202,6 @@ nav {
 }
 
 .page2 {
-    background: grey;
+    background: #909090;
     color: black;
 }

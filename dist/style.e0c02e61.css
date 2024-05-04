@@ -47,8 +47,7 @@ nav .headerTitle {
   width: 100%;
 }
 
-.page1Content,
-.page2Content {
+.page1Content {
   height: 100%;
   overflow: auto;
   width: 100%;
@@ -56,54 +55,45 @@ nav .headerTitle {
   justify-content: flex-start;
   align-items: flex-start;
 }
-.page1Content img,
-.page2Content img {
+.page1Content img {
   height: 50%;
 }
-.page1Content h1,
-.page2Content h1 {
+.page1Content h1 {
   font-size: 50px;
   margin: 30px 0px;
 }
-.page1Content p,
-.page2Content p {
+.page1Content p {
   font-size: 20px;
 }
-.page1Content .contentA,
-.page2Content .contentA {
+.page1Content .contentA {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 16px;
   width: auto;
 }
-.page1Content .contentA #contentAText,
-.page2Content .contentA #contentAText {
+.page1Content .contentA #contentAText {
   display: flex;
   flex-direction: column;
   justify-content: start;
   margin: 10px;
   padding: 0px;
 }
-.page1Content .contentA #contentAText h1,
-.page2Content .contentA #contentAText h1 {
+.page1Content .contentA #contentAText h1 {
   margin: 0;
   font-size: 25px;
   width: 30vw;
 }
-.page1Content .contentA #contentAText p,
-.page2Content .contentA #contentAText p {
+.page1Content .contentA #contentAText p {
   width: 30vw;
   height: auto;
 }
-.page1Content .contentA #contentAImage .pageImage,
-.page2Content .contentA #contentAImage .pageImage {
+.page1Content .contentA #contentAImage .pageImage {
   width: 30vw;
   height: auto;
   margin: 25px;
 }
-.page1Content .contentB,
-.page2Content .contentB {
+.page1Content .contentB {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -112,24 +102,86 @@ nav .headerTitle {
   margin-right: 1vw;
   margin-left: auto;
 }
-.page1Content .contentB #contentBText,
-.page2Content .contentB #contentBText {
+.page1Content .contentB #contentBText {
   display: flex;
   flex-direction: column;
   justify-content: start;
   margin: 10px;
   padding: 0px;
 }
-.page1Content .contentB #contentBText h1,
-.page2Content .contentB #contentBText h1 {
+.page1Content .contentB #contentBText h1 {
   margin: 0;
   font-size: 25px;
   width: 30vw;
 }
-.page1Content .contentB #contentBText p,
-.page2Content .contentB #contentBText p {
+.page1Content .contentB #contentBText p {
   width: 30vw;
   height: auto;
+}
+
+.page2Content {
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.page2Content img {
+  height: 50%;
+}
+.page2Content h1 {
+  font-size: 50px;
+  margin: 30px 0px;
+}
+.page2Content p {
+  font-size: 23px;
+}
+.page2Content .contentA {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+  width: auto;
+  height: auto;
+}
+.page2Content .contentA .contentAImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.page2Content .contentA .contentAImage .pageImage {
+  width: 30vw;
+  height: auto;
+  margin: 25px;
+}
+.page2Content .contentA .contentAImage p {
+  text-align: center;
+  width: 70%;
+}
+.page2Content .contentA .contentAImage .pageImage2 {
+  width: 30vw;
+  height: auto;
+  margin: 25px;
+}
+.page2Content .contentA #contentAText {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: center;
+  margin: 10px;
+  padding: 0px;
+}
+.page2Content .contentA #contentAText h1 {
+  margin: 0;
+  font-size: 30px;
+  width: 30vw;
+}
+.page2Content .contentA #contentAText p {
+  width: 30vw;
+  height: auto;
+  font-size: 24px;
 }
 
 .page1 {
@@ -140,7 +192,7 @@ nav .headerTitle {
 }
 
 .page2 {
-  background: grey;
+  background: #909090;
   color: black;
 }
 
