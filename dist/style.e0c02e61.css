@@ -43,7 +43,9 @@ nav .headerTitle {
 .page1,
 .page2,
 .page3,
-.page4 {
+.page4,
+.page5,
+.page6 {
   height: 90vh;
   position: absolute;
   width: 100%;
@@ -224,6 +226,7 @@ nav .headerTitle {
   width: 30vw;
   height: auto;
   margin: 0px;
+  padding-bottom: 50px;
 }
 .page3Content .contentA .contentAImage h1 {
   margin: 10;
@@ -239,7 +242,7 @@ nav .headerTitle {
   width: 20vw;
   height: auto;
   margin: 30px;
-  margin-top: 30vh;
+  margin-top: 5vh;
   margin-right: 0px;
   padding-right: 30px;
 }
@@ -342,6 +345,176 @@ nav .headerTitle {
   font-size: 24px;
 }
 
+.page5Content {
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.page5Content img {
+  height: 50%;
+  margin-top: 0px;
+}
+.page5Content h1 {
+  font-size: 50px;
+  margin: 30px 0px;
+}
+.page5Content p {
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+.page5Content .contentA {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+  width: auto;
+  height: auto;
+}
+.page5Content .contentA .contentAImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.page5Content .contentA .contentAImage .pageImage {
+  width: 30vw;
+  height: auto;
+  margin: 25px;
+}
+.page5Content .contentA .contentAImage h1 {
+  margin: 10;
+  font-size: 50px;
+  width: 30vw;
+  text-align: center;
+}
+.page5Content .contentA .contentAImage p {
+  text-align: center;
+  width: 70%;
+}
+.page5Content .contentA .contentAImage .pageImage2 {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  height: auto;
+  margin: 20px;
+  margin-top: 10vh;
+  margin-right: 0px;
+  padding-right: 30px;
+}
+.page5Content .contentA #contentAText {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: center;
+  margin: 30px;
+  padding: 0px;
+}
+.page5Content .contentA #contentAText h1 {
+  margin: 10;
+  font-size: 50px;
+  width: 30vw;
+  text-align: center;
+}
+.page5Content .contentA #contentAText .pageImage {
+  width: 30vw;
+  height: auto;
+  margin: 25px;
+  margin-left: 0px;
+}
+.page5Content .contentA #contentAText p {
+  width: 30vw;
+  height: auto;
+  font-size: 24px;
+}
+
+.page6Content {
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.page6Content img {
+  height: 50%;
+  margin-top: 0px;
+}
+.page6Content h1 {
+  font-size: 50px;
+  margin: 30px 0px;
+}
+.page6Content p {
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+.page6Content .contentA {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+  width: auto;
+  height: auto;
+}
+.page6Content .contentA .contentAImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.page6Content .contentA .contentAImage .pageImage {
+  width: 30vw;
+  height: auto;
+  margin: 25px;
+}
+.page6Content .contentA .contentAImage h1 {
+  margin: 10;
+  font-size: 50px;
+  width: 30vw;
+  text-align: center;
+}
+.page6Content .contentA .contentAImage p {
+  text-align: center;
+  width: 70%;
+}
+.page6Content .contentA .contentAImage .pageImage2 {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  height: auto;
+  margin: 20px;
+  margin-top: 10vh;
+  margin-right: 0px;
+  padding-right: 30px;
+}
+.page6Content .contentA #contentAText {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: center;
+  margin: 30px;
+  padding: 0px;
+}
+.page6Content .contentA #contentAText h1 {
+  margin: 10;
+  font-size: 50px;
+  width: 30vw;
+  text-align: center;
+}
+.page6Content .contentA #contentAText .pageImage {
+  width: 30vw;
+  height: auto;
+  margin: 25px;
+  margin-left: 0px;
+}
+.page6Content .contentA #contentAText p {
+  width: 30vw;
+  height: auto;
+  font-size: 24px;
+}
+
 .page1 {
   background: black;
   color: white;
@@ -362,6 +535,16 @@ nav .headerTitle {
 .page4 {
   background: #d7fee5;
   color: rgb(0, 0, 0);
+}
+
+.page5 {
+  background: rgb(20, 41, 12);
+  color: rgb(255, 255, 255);
+}
+
+.page6 {
+  background: rgb(20, 41, 12);
+  color: rgb(255, 255, 255);
 }
 
 /*# sourceMappingURL=/style.e0c02e61.css.map */
