@@ -6,7 +6,7 @@
 
 body {
   font-family: "VT323", monospace;
-  background: #7de47f;
+  background: #000000;
 }
 
 nav {
@@ -45,7 +45,8 @@ nav .headerTitle {
 .page3,
 .page4,
 .page5,
-.page6 {
+.page6,
+.page7 {
   height: 90vh;
   position: absolute;
   width: 100%;
@@ -523,6 +524,55 @@ nav .headerTitle {
   font-size: 24px;
 }
 
+.page7Content {
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page7Content img {
+  height: 50%;
+  margin-top: 0px;
+}
+.page7Content h1 {
+  font-size: 100px;
+  margin: 30px 0px;
+}
+.page7Content p {
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+.page7Content .contentA {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  width: auto;
+  height: auto;
+}
+.page7Content .contentA #contentAText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 30px;
+  padding: 0px;
+}
+.page7Content .contentA #contentAText h1 {
+  margin: 10;
+  font-size: 50px;
+  width: 100vw;
+  text-align: center;
+}
+.page7Content .contentA #contentAText p {
+  width: 60vw;
+  height: auto;
+  font-size: 25px;
+}
+
 .page1 {
   background: black;
   color: white;
@@ -565,6 +615,11 @@ nav .headerTitle {
   background-size: 300px;
   background-repeat: repeat;
   color: rgb(0, 0, 0);
+}
+
+.page7 {
+  background: black;
+  color: rgb(255, 255, 255);
 }
 
 /*# sourceMappingURL=/style.e0c02e61.css.map */
