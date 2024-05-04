@@ -142,9 +142,11 @@ nav {
     h1 {
         font-size: 50px;
         margin: 30px 0px;
+        background: rgba(0, 0, 0, 0.663);
     }
     p {
         font-size: 23px;
+        background: rgba(0, 0, 0, 0.663);
     }
     .contentA {
         display: flex;
@@ -465,10 +467,12 @@ nav {
         margin-top: 0px;
     }
     h1 {
+        background: rgba(255, 255, 255, 0.898);
         font-size: 50px;
         margin: 30px 0px;
     }
     p {
+        background: rgb(255, 255, 255, 0.898);
         font-size: 23px;
         margin-bottom: 20px;
     }
@@ -492,12 +496,14 @@ nav {
                 margin: 25px;
             }
             h1 {
+                padding: 5px;
                 margin: 10;
                 font-size: 50px;
                 width: 30vw;
                 text-align: center;
             }
             p {
+                padding: 5px;
                 text-align: center;
                 width: 70%;
             }
@@ -522,6 +528,7 @@ nav {
             padding: 0px;
 
             h1 {
+                padding: 5px;
                 margin: 10;
                 font-size: 50px;
                 width: 30vw;
@@ -534,6 +541,7 @@ nav {
                 margin-left: 0px;
             }
             p {
+                padding: 5px;
                 width: 30vw;
                 height: auto;
                 font-size: 24px;
@@ -551,7 +559,10 @@ nav {
 
 .page2 {
     background: #909090;
-    color: black;
+    background-image: url('../images/jamesImages/FalloutFace.png');
+    background-size: 300px;
+    background-repeat: repeat;
+    color: rgb(255, 255, 255);
 }
 
 .page3 {
@@ -561,15 +572,24 @@ nav {
 
 .page4 {
     background: #d7fee5;
+    background-image: url('../images/nikhilImages/Matrix-664.jpg');
+    background-size: 300px;
+    background-repeat: repeat;
     color: rgb(0, 0, 0);
 }
 
 .page5 {
     background: rgba(20,41,12,255);
+    background-image: url('../images/nikhilImages/Silvia_A_Ferreira-Humanstemcell.jpg');
+    background-size: 300px;
+    background-repeat: repeat;
     color: rgb(255, 255, 255);
 }
 
 .page6 {
-    background: rgba(20,41,12,255);
-    color: rgb(255, 255, 255);
+    background: black;
+    background-image: url('../images/nikhilImages/Matrix-669.jpg');
+    background-size: 300px;
+    background-repeat: repeat;
+    color: rgb(0, 0, 0);
 }

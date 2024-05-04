@@ -172,7 +172,7 @@ module.exports = reloadCSS;
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../images/jamesImages/FalloutFace.png":[["FalloutFace.56f96122.png","images/jamesImages/FalloutFace.png"],"images/jamesImages/FalloutFace.png"],"./../images/nikhilImages/Matrix-664.jpg":[["Matrix-664.a2ada5d1.jpg","images/nikhilImages/Matrix-664.jpg"],"images/nikhilImages/Matrix-664.jpg"],"./../images/nikhilImages/Silvia_A_Ferreira-Humanstemcell.jpg":[["Silvia_A_Ferreira-Humanstemcell.86211423.jpg","images/nikhilImages/Silvia_A_Ferreira-Humanstemcell.jpg"],"images/nikhilImages/Silvia_A_Ferreira-Humanstemcell.jpg"],"./../images/nikhilImages/Matrix-669.jpg":[["Matrix-669.2aa46762.jpg","images/nikhilImages/Matrix-669.jpg"],"images/nikhilImages/Matrix-669.jpg"],"_css_loader":"../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -197,7 +197,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54393" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55061" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
