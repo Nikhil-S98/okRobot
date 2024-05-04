@@ -6,16 +6,28 @@
 
 body {
     font-family: "VT323", monospace;
+    background: #7de47f;
 }
 
 nav {
-    background: rgb(158, 255, 154);
+    background: #7de47f;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    .headerTitle {
+        font-size: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 18%;
+    }
 }
 
 .navList {
     height: 10vh;
     display: flex;
-    width: 50%;
+    width: 75%;
     justify-content: space-around;
     align-items: center;
     margin-left: auto;
@@ -38,9 +50,11 @@ nav {
 .page1Content,
 .page2Content {
     height: 100%;
+    overflow: auto;
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     img {
         height: 50%;
     }
@@ -51,11 +65,72 @@ nav {
     p {
         font-size: 20px;
     }
+    .contentA {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 16px;
+        width: auto;
+
+        #contentAText {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            margin: 10px;
+            padding: 0px;
+            h1 {
+                margin: 0;
+                font-size: 25px;
+                width: 30vw;
+            }
+            p {
+                width: 30vw;
+                height: auto;
+            }
+        }
+
+        #contentAImage {
+            .pageImage {
+                width: 30vw;
+                height: auto;
+                margin: 25px;
+            }
+        }
+    }
+
+    .contentB {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 16px;
+        width: auto;
+        margin-right: 1vw;
+        margin-left: auto;
+
+        #contentBText {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            margin: 10px;
+            padding: 0px;
+            h1 {
+                margin: 0;
+                font-size: 25px;
+                width: 30vw;
+            }
+            p {
+                width: 30vw;
+                height: auto;
+            }
+        }
+    }
 }
 
 .page1 {
     background: black;
     color: white;
+    height: auto;
+    width: 100%;
 }
 
 .page2 {
