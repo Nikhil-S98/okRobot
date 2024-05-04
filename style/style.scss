@@ -42,7 +42,8 @@ nav {
 
 .page1,
 .page2,
-.page3 {
+.page3,
+.page4 {
     height: 90vh;
     position: absolute;
     width: 100%;
@@ -231,7 +232,7 @@ nav {
             .pageImage {
                 width: 30vw;
                 height: auto;
-                margin: 25px;
+                margin: 0px;
             }
             h1 {
                 margin: 10;
@@ -270,6 +271,96 @@ nav {
 
 }
 
+.page4Content {
+    height: 100%;
+    overflow: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    img {
+        height: 50%;
+        margin-top: 0px;
+    }
+    h1 {
+        font-size: 50px;
+        margin: 30px 0px;
+    }
+    p {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    .contentA {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 16px;
+        width: auto;
+        height: auto;
+
+        
+        .contentAImage {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            .pageImage {
+                width: 30vw;
+                height: auto;
+                margin: 25px;
+            }
+            h1 {
+                margin: 10;
+                font-size: 50px;
+                width: 30vw;
+                text-align: center;
+            }
+            p {
+                text-align: center;
+                width: 70%;
+            }
+            .pageImage2 {
+                display: flex;
+                flex-direction: column;
+                width: 20vw;
+                height: auto;
+                margin: 30px;
+                margin-top: 10vh;
+                margin-right: 0px;
+                padding-right: 30px;
+            }
+        }
+
+        #contentAText {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            text-align: center;
+            margin: 30px;
+            padding: 0px;
+
+            h1 {
+                margin: 10;
+                font-size: 50px;
+                width: 30vw;
+                text-align: center;
+            }
+            .pageImage {
+                width: 30vw;
+                height: auto;
+                margin: 25px;
+                margin-left: 0px;
+            }
+            p {
+                width: 30vw;
+                height: auto;
+                font-size: 24px;
+            }
+        }
+    }
+
+}
+
 .page1 {
     background: black;
     color: white;
@@ -285,4 +376,9 @@ nav {
 .page3 {
     background: #ffd6ff;
     color: black;
+}
+
+.page4 {
+    background: #d7fee5;
+    color: rgb(0, 0, 0);
 }

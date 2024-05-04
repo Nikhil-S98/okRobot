@@ -42,7 +42,8 @@ nav .headerTitle {
 
 .page1,
 .page2,
-.page3 {
+.page3,
+.page4 {
   height: 90vh;
   position: absolute;
   width: 100%;
@@ -222,7 +223,7 @@ nav .headerTitle {
 .page3Content .contentA .contentAImage .pageImage {
   width: 30vw;
   height: auto;
-  margin: 25px;
+  margin: 0px;
 }
 .page3Content .contentA .contentAImage h1 {
   margin: 10;
@@ -256,6 +257,91 @@ nav .headerTitle {
   font-size: 24px;
 }
 
+.page4Content {
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.page4Content img {
+  height: 50%;
+  margin-top: 0px;
+}
+.page4Content h1 {
+  font-size: 50px;
+  margin: 30px 0px;
+}
+.page4Content p {
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+.page4Content .contentA {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+  width: auto;
+  height: auto;
+}
+.page4Content .contentA .contentAImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.page4Content .contentA .contentAImage .pageImage {
+  width: 30vw;
+  height: auto;
+  margin: 25px;
+}
+.page4Content .contentA .contentAImage h1 {
+  margin: 10;
+  font-size: 50px;
+  width: 30vw;
+  text-align: center;
+}
+.page4Content .contentA .contentAImage p {
+  text-align: center;
+  width: 70%;
+}
+.page4Content .contentA .contentAImage .pageImage2 {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  height: auto;
+  margin: 30px;
+  margin-top: 10vh;
+  margin-right: 0px;
+  padding-right: 30px;
+}
+.page4Content .contentA #contentAText {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: center;
+  margin: 30px;
+  padding: 0px;
+}
+.page4Content .contentA #contentAText h1 {
+  margin: 10;
+  font-size: 50px;
+  width: 30vw;
+  text-align: center;
+}
+.page4Content .contentA #contentAText .pageImage {
+  width: 30vw;
+  height: auto;
+  margin: 25px;
+  margin-left: 0px;
+}
+.page4Content .contentA #contentAText p {
+  width: 30vw;
+  height: auto;
+  font-size: 24px;
+}
+
 .page1 {
   background: black;
   color: white;
@@ -271,6 +357,11 @@ nav .headerTitle {
 .page3 {
   background: #ffd6ff;
   color: black;
+}
+
+.page4 {
+  background: #d7fee5;
+  color: rgb(0, 0, 0);
 }
 
 /*# sourceMappingURL=/style.e0c02e61.css.map */
